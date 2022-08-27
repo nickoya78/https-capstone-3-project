@@ -1,0 +1,21 @@
+@import "../Variables/Variables.scss";
+
+.welcome {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $dark;
+  font-family: $titleFont;
+}
+
+button {
+  background-color: yellow;
+  margin: 50px;
+}
+
+.close {
+  background-color: red;
+}

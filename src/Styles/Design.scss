@@ -1,0 +1,17 @@
+@import "../Variables/Variables.scss";
+
+img {
+  align-content: space-between;
+  filter: contrast(1.35) brightness(0.65);
+}
+h1 {
+  color: $blueColor;
+  font-family: $titleFont;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(255, 166, 0);
+  text-align: left;
+  font-family: $titleFont;
+}

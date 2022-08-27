@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap");
+
+$Poppins: "Poppins", sans-serif;
+//COLORS
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: rgb(162, 162, 246);
+$bg: rgb(244, 244, 255);
+$blackColor: rgb(24, 24, 24);
+$whiteColor: rgb(232, 232, 232);
+$redColor: rgb(175, 2, 2);
+$yellowColor: rgb(255, 255, 0);
+$blueColor: rgb(0, 4, 255);
+//FONT
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: "Times New Roman", Times, serif;
+//MIXING & FUNCTION
+@mixin buttonStyle($color, $fontSize) {
+  width: 200px;
+  height: 40px;
+  background-color: $color;
+  border: none;
+  border-radius: 8px;
+  color: $whiteColor;
+  font-size: $fontSize;
+}
